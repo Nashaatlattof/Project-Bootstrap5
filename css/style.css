@@ -1,0 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-animat{
+    animation: up-and-down 5s linear infinite;
+    position: relative;
+}
+
+
+@keyframes up-and-down {
+
+  0%,
+  100% {
+    top: 0;
+  }
+
+  50% {
+    top: -50px;
+  }
+}
